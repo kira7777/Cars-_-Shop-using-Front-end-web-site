@@ -1,0 +1,90 @@
+html{zoom:67%}
+.tit .info h1 {
+    font-size: 45px
+}
+.tit .info p {
+    font-size: 30px
+}
+.about-car .info .pric {
+    font-size: 37px;
+    font-weight: 800;
+    float: right;
+    color: #1a1a59;
+    margin: -85px 0 0 0;
+    border: 5px outset gold;
+    background-color: gold;
+}
+.about-car .info p {
+    margin: 0;
+    font-size: 22px;
+    display: inline-block;
+    text-align: justify;
+}
+.about-car .info p span {
+    font-size: 89px;
+    display: flex;
+    font-family: initial;
+    float: left;
+    margin: -40px 14px -54px -4px;
+}
+
+#big {
+font-family: fantasy;
+font-size: 45px;
+text-align: left;
+margin-top: 25px;
+margin-bottom: 25px
+}
+.feat-table {
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-size: 25px
+}            
+
+.feat-table table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 11px;
+}
+.feat-table td /*, .feat-table td*/ {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+} 
+
+.feat-table tr:nth-child(even) {background-color: burlywood;}
+
+.feat-table tr:nth-child(odd) {background-color: cornsilk;}
+
+.feat-table .left {
+    padding: 15px 10px; 
+    text-align: left;
+    background-color: brown;
+    color:white;
+    border-radius:30px 0 0 0;       
+}
+.feat-table .right {
+    padding: 15px 10px; 
+    text-align: left;
+    background-color: brown;
+    color:white;
+	border-left:1px solid;
+    border-radius:0 30px 0 0;       
+}
+.feat-table .f-left {
+	border-left:0px;
+    padding: 10px;
+    text-align: left;
+    border-radius:0 0 0 30px;       
+}
+.feat-table .f-right {
+    padding: 10px;
+    text-align: left;
+    border-radius:0 0 30px 0;       
+}
+
+video{
+    width:100%;
+}

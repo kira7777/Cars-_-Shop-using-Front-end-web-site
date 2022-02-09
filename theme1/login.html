@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/mainPagesStyle.css">
+        <link rel="stylesheet" href="css/otherPages/login.css">
+        <link rel="stylesheet" href="css/fontawesome-free-5.14.0-web/css/all.css">
+        <link rel="stylesheet" href="css/fontawesome-free-5.14.0-web/css/brands.css">
+        <link rel="stylesheet" href="css/fontawesome-free-5.14.0-web/css/fontawesome.css">
+        <link rel="stylesheet" href="css/fontawesome-free-5.14.0-web/css/regular.css">
+        <link rel="stylesheet" href="css/fontawesome-free-5.14.0-web/css/solid.css">
+        <link rel="stylesheet" href="css/fontawesome-free-5.14.0-web/css/v4-shims.css">
+        <script src="../js/jquery-3.5.1.min.js"></script>
+    </head>
+    <body>
+        
+        <!--Start themes-bar-->
+
+            <div class="themes-bar" style="font-family: sans-serif">
+                <div class="container">
+                    <ul>
+                        <li ><a href="../theme1/login.html" class="active" target="_parent"><strong>Theme 1</strong></a></li>
+                        <li ><a href="../theme2/login.html" target="_parent"><strong>Theme 2</strong></a></li>
+                        <li ><a href="../theme3/login.html"  target="_parent"><strong>Theme 3</strong></a></li>
+                    </ul>
+                </div>
+            </div>
+        
+        <!--End themes-bar -->
+        
+        <!--Start Header-->
+        
+        <iframe class="if-header" src="header.html" scrolling="no"></iframe>
+        
+        <!--End Header-->
+        
+        <div class="login">
+            <div class="container">
+                <form method="post" onsubmit="return validated()" name="form"class="login">
+
+
+                    <h2 class="title">Login form</h2>
+                    
+
+                    <input type="text" name="email" placeholder="email" >
+                    
+                    
+                    <div id="emailerror"style="color: red;display: none;">please fill up your Email or phone</div>
+                    
+                    <input type="password" name="password"  id="Password" placeholder="password">
+                    
+                    <div id="passerror"style="color: red;display: none;">please fill up your password</div>
+                    
+                    <br>
+                    
+                    <input type="checkbox">Remember me
+                    
+                    <br>
+                    
+                    <div class="signup_link" >not a member ?
+                        
+                        <a href="sign-up.html">SignUp</a>
+                   
+                      </div>
+                    
+                    <input type="submit" >
+                
+                </form>
+            </div> 
+        </div>
+        
+        
+        <!--Start Footer -->
+        
+        <iframe class="if-footer" src="footer.html" scrolling="no"></iframe>
+        
+        <!--End Footer -->
+    
+<script>
+    var email=document.forms['form']['email'];
+    var password=document.forms['form']['password'];
+
+    var emailerror = document.getElementById('emailerror');
+    var passerror = document.getElementById('passerror');
+
+
+    email.addEventlistener('textInput',email_Verify);
+    password.addEventlistener('textInput',pass_Verify);
+
+    function validated()
+    {
+        if(email.value.length<6) {
+            email.style.border="1px solid red";
+            emailerror.style.display= "block";
+            email.focus();
+            return false;
+        }
+
+        if(password.value.length<6) {
+            password.style.border="1px solid red";
+            passerror.style.display="block";
+            password.focus();
+            return false;
+        }
+    }
+function email_Verify() {
+    if(email.value.length>=8) {
+        email.style.border="1px solid silver";
+            emailerror.style.display="block";
+            email.focus();
+            return true;
+    }
+    function pass_Verify (){
+if(password.value.length>8) {
+            password.style.border="1px solid silver";
+            passerror.style.display="block";
+            password.focus();
+            return true;
+}
+
+    }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,330 @@
+html {
+    font-family: sans-serif;
+}
+html{zoom:67%}
+body{
+    margin: 0px;
+	font-family:cursive;
+	background-color:black;
+}
+
+/* Start themes-bar */
+
+
+.themes-bar {
+    background-color: #312c2c;
+    color: #FFF;
+    overflow: hidden;
+    height: 35px;
+}
+.themes-bar ul {
+    list-style: none;
+    padding: 0px;
+    overflow: hidden;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 489px;
+}
+
+.themes-bar ul li {
+    padding-right: 8px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.themes-bar ul li .active{
+    color: black;
+}
+
+.themes-bar ul li a {
+     color: #FFF;
+    text-decoration: none;
+}
+
+.themes-bar ul li a:hover {
+    color:  black;   
+}
+
+/* End themes-bar */
+
+
+/* Start Header */
+
+.header .navbar {background-color: maroon;color:#FFF;overflow: hidden;height: 100px}
+
+.header .navbar h1  {color:#FFF;margin-top: 30px;font-size: 40px}
+
+.header .navbar h1 span {color:gold;margin-top: 30px;font-size: 40px}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+    float:right
+}
+
+.header .navbar ul li {float:left;padding: 10px;font-size: 22px;margin-top: 13px}
+
+.header .navbar ul li a {color:#FFF;text-decoration: none}
+
+.header .navbar ul li .active a,
+.header .navbar ul li a:hover {color: gold}
+
+    /* Start Sign-bar */
+
+    .header .sign-bar {background-color: gray;color:#FFF;overflow: hidden;height: 65px}
+
+    .header .sign-bar ul {
+        list-style: none;
+        padding: 0px;
+        overflow: hidden;
+        height: 100%
+    }
+
+    .header .sign-bar ul li {
+        padding-right: 8px;
+        font-size: 30px;
+        display: inline-block;
+    }
+
+    .header .sign-bar ul li a {
+         color: #FFF;
+        text-decoration: none;
+    }
+    
+    .header .sign-bar ul li a:hover {
+        color:  black;   
+    }
+
+    /* End Sign-bar */
+
+/* End Header */
+
+/* Start tit */
+
+.tit {background-color: black;overflow:hidden}
+
+.tit .info {width: 100%}
+
+.tit .info h1 {margin: 25px 35px 20px 40px;text-align: center;font-size: 37px;color: #2196f3;}
+
+.tit .info p {margin: 0 0 10px 40px;font-size: 25px;text-align: center;color: red;}
+
+/* End tit */
+
+/* Start Large img */
+
+.large-img {background-color: black}
+
+.logo {margin-top: 5px;width: 100%}
+
+/* Position the image container (needed to position the left and right arrows) */
+.image-container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides,
+.mySlides2,
+.mySlides3 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo,
+.demo2,
+.demo3 {
+	height:165px;
+	opacity: 0.6;
+}
+
+.active,
+.demo:hover,
+.demo2:hover,
+.demo3:hover {
+	height:165px;
+	opacity: 1;
+}
+
+/* End Large img */
+
+/* Start About car */
+
+.about-car {background-color: black;overflow: visible}
+
+.about-car .info h2 {margin: 25px 0 20px 40px; color: blueviolet;font-size:30px;font-family:cursive;}
+
+.about-car .info p {margin: 15px 0 20px 40px;}
+
+.about-car .info .feat {overflow: hidden;margin: 0 0 0 40px;background-color:black;}
+
+.about-car .info .feat .content {width: 24%;overflow: hidden;padding-top: 35px;border-top: 3px solid darkviolet;}
+
+.about-car .info .feat .content .text h3 {display: inline-block;margin: 9px 0 5px 5px;font-size:25px;}
+
+.icon {height:50px;margin-bottom: -18px;padding:3px; background-color:white;}
+
+/* start Ibrahim's work*/
+.about-car .info  span{
+    font-size:30px;
+    font-weight:800;
+	font-family:cursive;
+    float:right;
+    color:orange;
+    margin:15px 0 0;
+}
+.buttons {text-align:center;height: auto}
+.buttons button 
+{
+	font-size:20px;
+	margin:10px;
+	padding:5px;
+	border:5px outset;
+	border-radius: 20px;
+	font-family:cursive;
+}
+.buttons .download 
+{
+	background-color:darkblue;
+	color:white;
+	border-color:darkblue;
+    cursor: pointer;
+}
+.buttons .more
+{
+	background-color:orange;
+	color:white;
+	border-color:orange;
+    cursor: pointer;
+}
+.buttons .test
+{
+	background-color:maroon;
+	color:white;
+	border-color:maroon;
+    cursor: pointer;
+}
+
+/* End Ibrahim's work*/
+
+
+/* End About car */
+
+/* Start About company */
+
+.about-company {background-color: black;overflow: hidden}
+
+.about-company .image {width: 40%}
+
+.about-company .image img {width: 100%;margin: 13px 0 0 0}
+
+.about-company .info {width: 60%}
+
+.about-company .info h2 {margin: 25px 0 20px 40px;font-size:30px;}
+
+.about-company .info > p {margin: 0 0 10px 40px}
+
+.about-company .info .feat {overflow: hidden;margin: 15px 0 0 40px}
+
+.about-company .info .feat .content {width: 50%;overflow: hidden}
+
+.about-company .info .feat .content .text {width: 83%}
+
+.about-company .info .feat .content .text p {margin-top: 0}
+
+.about-company .info .feat .content .text h3 {margin-bottom: 5px;font-size:25px;}
+
+/* End About company */
+
+/* Start Footer */
+
+.footer{
+    background-color:#002A53;
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer ul li {display: inline-block}
+
+/* End Footer */
+
+/* Start our Framework */
+
+.if-header{width: 100%;height: 165px;border: 0px;padding: 0px;margin: 0px;margin-bottom: -3px;}
+
+.if-footer{width: 100%;height: 60px;border: 0px;padding: 0px;margin: 0px;margin-bottom: -3px;}
+
+p {line-height: 1.7; height: 125px; color: red;font-size:17px;font-family:cursive;}
+
+h2, h3 {color:blueviolet;font-family:cursive}
+
+.fl-left {display:inline-table;}
+
+.fl-right {float: right}
+
+.container {width: 1170px;margin: auto}
+
+a {text-decoration: none}
+
+/* End our Framework */

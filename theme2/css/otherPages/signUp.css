@@ -1,0 +1,97 @@
+html{zoom:67%}
+.signup
+{
+    background-color: black;
+    padding:60px;
+    height: auto;
+}
+form
+{
+    padding: 10px;
+    font-family: cursive;
+    border: 4px solid gray;
+    border-radius: 30px;
+    background-color: gray;
+    margin: -5px 369px;
+    width: 40%;
+}
+h2
+{
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.error_message {
+color: #f54f53;
+padding: 0px;
+text-align: left;
+font-size: 16px;
+font-family: none;
+margin-left: 7px;
+margin-top: 2.2px;
+margin-bottom: 4.2px;
+display: none;
+}
+form i {
+    position: absolute;
+    transform: translate(-31px, 19px);
+    display: none;
+}
+
+input
+{
+    padding: 10px;
+    margin: 5px;
+	font-family:cursive;
+    border-radius: 5px;
+    border: none;
+
+}
+.remeber{
+    color: white;
+}
+input[type=text],input[type=email],input[type=mnumber],input[type=password]
+{
+    width: 90%;
+}
+input[type=submit]
+{
+    width: 95%;
+    background-color: orange;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+input[type=submit]:hover
+{
+    background-color: yellow
+}
+select
+{
+    padding: 10px;
+    width: 32%;
+	font-family:cursive;
+	border-radius: 5px;
+    margin-top: 3px;
+}
+.signup_link
+{
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.signup_link a
+{
+    color: #2691d9;
+    text-decoration: none;
+}
+
+.signup_link a:hover
+{
+    text-decoration: underline;
+}

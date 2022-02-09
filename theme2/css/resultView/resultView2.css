@@ -1,0 +1,256 @@
+/* Start results */	
+html{zoom:67%}
+.searchOptions{
+text-align: center;
+}
+.searchOptions a {
+font-size: 22px;
+font-weight: bold;
+margin: 0px 52px 21px 47px;
+padding: 9px;
+border: 1px solid black;
+display: inline-block;
+background-color: floralwhite;
+color: black;
+cursor: pointer
+}
+.searchOptions a:hover {
+background-color: #ffc300;
+}
+.searchOptions .active {
+background-color: #ffc300
+}
+
+.search_by_name #search-bar {
+width: 91%;
+height: 32px;
+margin: 0px 0px 19px 0;
+font-size: 21px;
+font-weight: bold;
+font-family: monospace;
+padding: 2px;
+padding-left: 11px;
+}
+            .search_by_price{
+                margin-left: -71px;
+            }
+.search_by_price input {
+width: 14%;
+height: 32px;
+margin: 0px 0px 19px 0;
+font-size: 21px;
+font-weight: bold;
+font-family: monospace;
+padding: 2px;
+padding-left: 11px;
+}
+.search_by_price span {
+width: 91%;
+height: 32px;
+margin: 0px 0px 19px 0;
+font-size: 21px;
+font-weight: bold;
+font-family: monospace;
+padding: 2px;
+padding-left: 11px;
+    color: white;
+}
+.search_by_name i {
+font-size: 25px;
+transform: translate(-42px, 1px);
+background-color: white;
+padding: 3px 1px 22px 7px;
+height: 5px;
+width: 26px;
+cursor: pointer;
+}
+#no_res {
+display: none;
+text-align: center;
+margin: 1px 0px 21px 0;
+font-size: 22px;
+color: white
+}
+#dolar1{
+display: inherit;
+position: absolute;
+transform: translate(586px, -54px);
+width: 1px;
+height: 1px;
+user-select: none;
+}
+#dolar2{
+display: inherit;
+position: absolute;
+transform: translate(845px, -54px);
+width: 1px;
+height: 1px;
+user-select: none;
+}
+
+.results {	
+    overflow: hidden;	
+    height: auto;	
+    background-color: black;	
+}	
+
+.viewOptions {
+    text-align: center;
+    height: auto;
+    font-size: 33px;
+    margin: 0px 0 14px 7px;
+    color: #800000;
+    cursor: pointer
+}
+
+i:hover{
+    color: white;
+}
+
+.viewOptions .fa-th-large{	
+    color: white;	
+}	
+.results .result-box {
+    overflow: hidden;
+    width: 532px;
+    height: 671px;
+    margin-bottom: 28px;
+    border: 9.5px solid #002A53;
+    background-color: white;
+    float: left;
+    margin-left: 21px;
+    margin-right: 11px;
+}
+.results .result-box :hover {	
+    	
+}	
+.results .result-img {	
+    height: 319px;	
+    width: 398px;	
+    margin: -45px 72px 0 0;	
+    background-color: white;	
+}	
+ 	
+.results .result-img img {	
+    width: 100%	
+}	
+.results .result-info {	
+    width: 532px;	
+    background-color: darkgrey;	
+}	
+.results .result-info .information {	
+    height: 328px;
+    margin-top: -18px;
+}	
+.results .result-info .information span {	
+    font-size: 30px;	
+    font-weight: 800;	
+    font-family: auto;	
+    float: right;	
+    color: gold;	
+    margin: 4px 8px;	
+}	
+.results .result-info .information h2 {	
+    margin: 248px 7px 10px 7px;	
+    font-size: 37px;	
+    text-decoration: underline;	
+    font-family: auto;	
+    border-top: 3px solid;	
+}	
+.results .result-info .information p {	
+margin: -6px 0px 0px 0px;
+    text-align: center;
+    height: 246px;
+    overflow: hidden;
+}	
+.results .result-info .result-options {	
+    height: 85px;
+    width: 592px;
+    margin: 0 -32px;
+    background-color: darkgrey;
+}	
+.result-options .buttons {
+    margin-top: -12px;
+    transform: scale(0.9);
+    background-color: darkgrey;
+}
+.results .pagination {
+    display: inline-block;
+    margin: 20px 507px;
+    
+}
+
+.results .pagination a {
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid maroon;
+    color: white;
+    background-color: black;
+}
+
+.results .pagination a.active {
+    background-color: maroon;
+    border: 1px solid maroon;
+    color: white
+}
+.results .pagination a:hover:not(.active){
+    background-color: maroon;
+    border: 1px solid maroon;
+    color: white
+}
+
+.results .pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.results .pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+/* Start after-delete */	
+.after-delete {	
+    display: none;	
+    text-align: center;	
+    background-color: #a52a2a;	
+    height: 65px;	
+    width: 1081px;	
+    margin: 4px 0px 24px 39px;	
+    border: 5px solid;	
+}	
+.after-delete .youHave {	
+    color: #eee;	
+    font-size: 26px;	
+    display: block;	
+    margin: 15.3px 0 0 0;	
+}	
+.after-delete .youHave .undelete {	
+    text-decoration: underline;	
+    color: wheat;	
+    cursor: pointer;	
+}	
+.after-delete .youHave .undelete:hover {	
+    color:darkblue;	
+}	
+.after-delete .youHave .car-name {	
+    color: wheat;	
+}	
+.minus {	
+    text-align: center;	
+    height: auto;	
+    font-size: 33px;	
+    margin: -277px 499px 0 0;	
+    color: brown;	
+    cursor: pointer;	
+}	
+.minus i{	
+    background-color: bisque;	
+    padding: 5px;	
+    border-bottom-right-radius: 22px;	
+}	
+.minus i:hover{	
+    color: #002a53	
+}	
+/* End after-delete */	
+
+/* End results */

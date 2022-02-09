@@ -1,0 +1,255 @@
+html {
+    font-family: inherit;
+}
+html{zoom:67%}
+
+body{
+    margin: 0px;
+    background-color: #dcdcdc;
+}
+
+/* Start themes-bar */
+
+
+.themes-bar {
+    background-color: #312c2c;
+    color: #FFF;
+    overflow: hidden;
+    height: 35px;
+}
+.themes-bar ul {
+    list-style: none;
+    padding: 0px;
+    overflow: hidden;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 489px;
+}
+
+.themes-bar ul li {
+    padding-right: 8px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.themes-bar ul li .active{
+    color: black;
+}
+
+.themes-bar ul li a {
+     color: #FFF;
+    text-decoration: none;
+}
+
+.themes-bar ul li a:hover {
+    color:  black;   
+}
+
+/* End themes-bar */
+
+/* Start Header */
+
+.header .navbar {background-color: rgb(0,0,0);color:#FFF;overflow: hidden;height: 100px}
+
+.header .navbar h1  {color:#FFF;margin-top: 30px;font-size: 40px}
+
+.header .navbar h1 span {color:#C70039;margin-top: 30px;font-size: 40px}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+    float:right
+}
+
+.header .navbar ul li {float:left;padding: 10px;font-size: 22px;margin-top: 13px}
+
+.header .navbar ul li a {color:#FFF;text-decoration: none}
+
+.header .navbar ul li .active a,
+.header .navbar ul li a:hover {color: #2f97ff}
+
+    /* Start Sign-bar */
+
+    .header .sign-bar {background-color: #6f0322;color:#FFF;overflow: hidden;height: 65px}
+
+    .header .sign-bar ul {
+        list-style: none;
+        padding: 0px;
+        overflow: hidden;
+        height: 100%
+    }
+
+    .header .sign-bar ul li {
+        padding-right: 8px;
+        font-size: 30px;
+        display: inline-block;
+    }
+
+    .header .sign-bar ul li a {
+         color: #FFF;
+        text-decoration: none;
+    }
+    
+    .header .sign-bar ul li a:hover {
+        color:  #013a65;   
+    }
+
+    /* End Sign-bar */
+
+/* End Header */
+
+/*start the main page*/
+.container-firstcar{
+    width: 1349px;
+    margin: auto;
+    background: #dcdcdc;
+    height: 835px;
+    margin-top: -5px
+}
+.left-image{
+        width: 50%;
+	height: 30px;
+        border-radius: 20%;
+	padding: 20px;
+}
+.image{
+    
+    border-radius: 10%;
+    
+    max-width: 704px;
+    max-height: 528px;
+    margin-top: 24px;
+}
+.right-info{
+   float: right;
+    width: 39.66667%;
+    height: 693px;
+    background: #500218;
+    border-radius: 30px;
+    margin-top: -24px;
+    margin-right: 26px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+}
+.info-1{
+    
+    background: #a0a0a0;
+    margin: 10px;
+    padding: 10px;
+    width: 27%;
+    height: 53px;
+        border-radius: 11%;
+       margin-left: 188px;
+       text-align: left;
+       transition:.5s;
+}
+dd{
+     background: #a0a0a0;
+    margin: 10px;
+    padding: 10px;
+    width: 27%;
+    height: 53px;
+    border-radius: 11%;
+        float: right;
+	margin-top: -84px;
+      margin-right: 99px;
+             text-align: left;
+   display: none;
+}
+.Brochure-button,.test{
+    
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 25px;
+    background: #037994;
+    border: 2px solid #037994;
+    border-radius: 14px;
+    color: #fff;
+    padding: 10px 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 334px;
+    font-weight: 900;
+    height: 49px;
+    padding-top: 22px;
+}
+.test{
+     
+    background: #02530e;
+    border: 2px solid #02530e;
+}
+.more-info{
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #500218;
+    border-radius: 14px;
+    color: #fff;
+    padding: 10px 12px;
+    background: #500218;
+    display: block;
+    max-width: 279px;
+    font-weight: 900;
+    height: 34px;
+    margin-left: 238px;
+    padding-top: 12px;
+}
+.B1{
+    color: white;
+}
+.about-car{
+    margin-top: 29%;
+    width: 55%;
+    margin-left: 33px;
+}
+.about-car1{
+        color: black;
+         text-align: justify; 
+}
+.about-car3{
+    color: black;
+    margin-top: 62%;
+    text-align: justify; 
+}
+/*end main page*/
+/* Start Footer */
+
+.footer{
+    background-color:#000000;
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer ul li {display: inline-block}
+
+/* End Footer */
+
+/* Start our Framework */
+
+.if-header{width: 100%;height: 165px;border: 0px;padding: 0px;margin: 0px;margin-bottom: -3px;}
+
+.if-footer{width: 100%;height: 60px;border: 0px;padding: 0px;margin: 0px;margin-bottom: -3px;}
+
+p {line-height: 1.7;color: #666666;font-weight: bold;}
+
+h2, h3 {color:#dc0000;font-family: inherit;}
+
+.fl-left {float: left}
+
+.fl-right {float: right}
+
+.container {width: 1170px;margin: auto}
+
+a {text-decoration: none; margin: 2px;}
+
+/* End our Framework */

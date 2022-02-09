@@ -1,0 +1,106 @@
+/* Start style of contact us page */
+html{zoom:67%}
+
+.error_message{
+    background: #ff8080;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+.container1{
+    padding:60px;
+    background-color: black;
+}
+.contact-us {
+    width: 300px;
+    background: #5e20b1;
+    padding: 50px;
+    margin: 24px 439px;
+    position: relative;
+    border-radius: 27%;
+    border: 1px solid;
+}
+.title h1{
+    clear: both;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    color: #FFF;
+}
+.form,.form-items{
+    width: 100%;
+}
+.form-items .input,.message,.Button{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+	font-family: cursive;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border: 0px;
+    outline: none;
+    border-radius: 10px;
+}
+.message{
+    height:125px;
+    margin-bottom: 30px;
+    padding: 15px;
+    resize: none;
+}
+.Button:hover{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #002a53;
+    color: #FFF;
+    border: 0px;
+    outline: none;
+}
+.form-items{
+    position: relative;
+}
+.form-items .fas{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #9a99aa;
+}
+.social-icons {
+    position: absolute;
+    bottom: -25px;
+    left: 31%;
+    width:200px;
+    display: flex;
+    letter-spacing: 40px;
+}
+.social-icons div {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 13%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: xx-large;
+}
+.social-icons div .fab{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: #fff;
+}
+.social-icons .facebook{
+    background: #0080ff;
+    font-size: xx-large;
+}
+.social-icons .twitter{
+    background: #41caf6;
+}
+.social-icons .linkedin{
+    background: rgb(0, 115, 177);
+}
+    
+/* End style of contact us page */

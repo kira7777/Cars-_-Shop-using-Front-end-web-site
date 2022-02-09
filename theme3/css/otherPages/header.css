@@ -1,0 +1,49 @@
+html{zoom:67%}
+
+.sign-up {
+    margin-left: 5px;
+    border-left: 3px solid;
+    padding-left: 13px;
+}
+
+.search {
+    background: #ffc300;
+    height: 42.3px;
+    border-radius: 13px;
+    padding: 1px;
+    transform: translate(-2px,-57px);
+    border: 3px solid #002a53;
+}
+
+.search .search-txt {
+    width: 270px;
+    padding: 0 8.5px;
+    color: #333;
+    font-size: 17px;
+    border: none;
+    background: none;
+    outline: none;
+    line-height: 40px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.search-txt:focus:placeholder  {color: transparent;transition: .2s}
+
+.search-txt:not(focus)::placeholder {color: #757575;transition: .2s}
+
+.search-btn {
+    color: black;
+    width: 39px;
+    height: 39px;
+    border-radius: 13px;
+    background: #FFC300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-btn i {
+    font-size: 30px
+}

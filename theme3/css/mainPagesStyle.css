@@ -1,0 +1,268 @@
+html {
+    font-family: inherit;
+}
+html{zoom:67%}
+
+body{
+    margin: 0px;
+    background-color: gainsboro;
+}
+
+/* Start themes-bar */
+
+
+.themes-bar {
+    background-color: #312c2c;
+    color: #FFF;
+    overflow: hidden;
+    height: 35px;
+}
+.themes-bar ul {
+    list-style: none;
+    padding: 0px;
+    overflow: hidden;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 489px;
+}
+
+.themes-bar ul li {
+    padding-right: 8px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.themes-bar ul li .active{
+    color: black;
+}
+
+.themes-bar ul li a {
+     color: #FFF;
+    text-decoration: none;
+}
+
+.themes-bar ul li a:hover {
+    color:  black;   
+}
+
+/* End themes-bar */
+
+/* Start Header */
+
+.header .navbar {background-color: rgb(0,0,0);color:#FFF;overflow: hidden;height: 100px}
+
+.header .navbar h1  {color:#FFF;margin-top: 30px;font-size: 40px}
+
+.header .navbar h1 span {color:#C70039;margin-top: 30px;font-size: 40px}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+    float:right
+}
+
+.header .navbar ul li {float:left;padding: 10px;font-size: 22px;margin-top: 13px}
+
+.header .navbar ul li a {color:#FFF;text-decoration: none}
+
+.header .navbar ul li .active a,
+.header .navbar ul li a:hover {color: #2f97ff}
+
+    /* Start Sign-bar */
+
+    .header .sign-bar {background-color: #6f0322;color:#FFF;overflow: hidden;height: 65px}
+
+    .header .sign-bar ul {
+        list-style: none;
+        padding: 0px;
+        overflow: hidden;
+        height: 100%
+    }
+
+    .header .sign-bar ul li {
+        padding-right: 8px;
+        font-size: 30px;
+        display: inline-block;
+    }
+
+    .header .sign-bar ul li a {
+         color: #FFF;
+        text-decoration: none;
+    }
+    
+    .header .sign-bar ul li a:hover {
+        color:  #013a65;   
+    }
+
+    /* End Sign-bar */
+
+/* End Header */
+
+/* Start tit */
+
+.tit {background-color: #dcdcdc;overflow:hidden}
+
+.tit .info {width: 100%}
+
+.tit .info h1 {margin: 25px 35px 20px 40px;text-align: center;font-size: 37px;}
+
+.tit .info p {margin: 0 0 10px 40px;font-size: 25px;text-align: center}
+
+/* End tit */
+
+/* Start Large img */
+
+.large-img {background-color: #dcdcdc}
+
+.logo {margin-top: 5px;;width: 100%}
+
+/* End Large img */
+
+/* Start About car */
+
+.about-car {background-color: #dcdcdc;overflow:visible}
+
+.about-car .info h2 {margin: 25px 0 20px 40px}
+
+.about-car .info p {margin: 0 0 10px 40px}
+
+.mainPropertiesFlip{
+    cursor: grab;
+    color: brown;
+    float: left;
+    display: contents;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px 0 0;
+}
+
+.about-car .info .feat {overflow: hidden;margin: 15px 0 12px 40px;background-color:#6f03220f;
+}
+
+.about-car .info .feat .content {width: 100%;overflow: hidden}
+
+.about-car .info .feat .content .text h3 {margin-bottom: 5px}
+
+/* start Ibrahim's work*/
+.about-car .info  span{
+    font-size:24px;
+    font-weight:800;
+    float:right;
+    color:navy;
+    margin:15px 0 0;
+}
+.buttons {text-align:center;height: auto;margin-bottom: 15px;}
+.buttons button 
+{
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:inherit;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 13px;
+	
+	text-shadow:0px 1px 0px #528ecc;
+}
+
+.buttons button :active {
+	position:relative;
+	top:1px;
+}
+
+.buttons .download 
+{
+	background-color:#02530e;
+	color:white;
+	border-color:seagreen;
+    cursor: pointer;
+}
+.buttons .more_info
+{
+	background-color:#b00000;
+	color:white;
+	border-color:#d77530;
+    cursor: pointer;
+}
+.buttons .test
+{
+	background-color:#009595;
+	color:white;
+	border-color:#329dcd;
+    cursor: pointer;
+}
+
+/* End Ibrahim's work*/
+
+
+/* End About car */
+
+/* Start About company */
+
+.about-company {background-color: #dcdcdc;overflow: hidden}
+
+.about-company .image {width: 40%}
+
+.about-company .image img {width: 100%;margin: 13px 0 0 22px}
+
+.about-company .info {width: 60%}
+
+.about-company .info h2 {margin: 25px 0 20px 40px}
+
+.about-company .info > p {margin: 0 0 10px 40px}
+
+.about-company .info .feat {overflow: hidden;margin: 15px 0 0 40px}
+
+.about-company .info .feat .content {width: 50%;overflow: hidden}
+
+.about-company .info .feat .content .text {width: 83%}
+
+.about-company .info .feat .content .text p {margin-top: 0}
+
+.about-company .info .feat .content .text h3 {margin-bottom: 5px}
+
+/* End About company */
+
+/* Start Footer */
+
+.footer{
+    background-color:#000000;
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer ul li {display: inline-block}
+
+/* End Footer */
+
+/* Start our Framework */
+
+.if-header{width: 100%;height: 165px;border: 0px;padding: 0px;margin: 0px;margin-bottom: -6px;}
+
+.if-footer{width: 100%;height: 60px;border: 0px;padding: 0px;margin: 0px;margin-bottom: -3px;}
+
+p {line-height: 1.7;color: #666666;font-weight: bold;}
+
+h2, h3 {color:#dc0000;font-family: inherit;}
+
+.fl-left {float: left}
+
+.fl-right {float: right}
+
+.container {width: 1170px;margin: auto}
+
+a {text-decoration: none; margin: 2px;}
+
+/* End our Framework */
+

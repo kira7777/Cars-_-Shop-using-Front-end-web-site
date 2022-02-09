@@ -1,0 +1,191 @@
+html {
+    font-family: sans-serif;
+}
+html{zoom:67%}
+
+body{
+    margin: 0px
+}
+
+/* Start themes-bar */
+
+
+.themes-bar {
+    background-color: #312c2c;
+    color: #FFF;
+    overflow: hidden;
+    height: 35px;
+}
+.themes-bar ul {
+    list-style: none;
+    padding: 0px;
+    overflow: hidden;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 489px;
+}
+
+.themes-bar ul li {
+    padding-right: 8px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.themes-bar ul li .active{
+    color: black;
+}
+
+.themes-bar ul li a {
+     color: #FFF;
+    text-decoration: none;
+}
+
+.themes-bar ul li a:hover {
+    color:  black;   
+}
+
+/* End themes-bar */
+
+
+/* Start tit */
+.title{
+    text-align: center;
+        
+}
+
+/* End tit */
+
+/* Start Large img */
+
+.contact{
+    width: 1170px;
+    margin: auto;
+}
+.mainPropertiesFlip{
+    cursor: grab;
+    color: brown;
+    float: left;
+    display: contents;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px 0 0;
+}
+.cars{
+    margin: auto;
+    width: 100%;
+    border-radius: 77px;
+    
+}
+.cars:hover{
+    transition: 0.9s
+}
+.infom{  
+    width: 1169px;
+    font-size: 23px;
+    margin-left: 1px;
+    display: block;
+}
+.infom p{margin-right: 66px;margin-left:10px;font-size:20px;color: #666;text-align: justify;}
+.infom h2{color: red;margin-left: 9px;}
+.infom button{
+    font-size: 20px;
+}
+infom button:hover{
+    opacity: 0;
+}
+.float-left img{border-radius: 48px;}
+.float-left{
+    border: 5px solid black;
+    float: left;
+    margin: 21px 157px;
+    width: 259px;
+    height: 200px;
+    border-radius: 55px;
+    box-shadow: 14px 10px #888888
+    }
+.float-left:hover{
+    height: 473px;
+}
+.float-left p{
+    margin-left: 5px;
+}
+.float-left h3{
+    text-align: center
+    
+}
+.contact1{
+    width: 1170px;
+    margin: auto;
+    display: flex
+}
+.menu img{border-radius: 17px;}
+.menu{
+   
+    border: 5px solid black;
+    border-radius: 27px;
+    float: left;
+    margin: 10px 11px 30px 142px;
+    display: block;
+    background-color: royalblue;
+}
+.menu a{
+    text-align: center
+}
+.infom1{  
+  width: 1169px;
+    font-size: 23px;
+    margin-left: 1px;
+    display: block;
+}
+.infom1 p{margin-right: 66px;margin-left:10px;font-size:20px;color: #666;text-align: justify;}
+.infom1 h2{color: red;margin-left: 9px;}
+.infom2{  
+ width: 1169px;
+    font-size: 23px;
+    margin-left: 1px;
+    display: block;
+}
+.infom2 p{margin-right: 66px;margin-left:10px;font-size:20px;color: #666;text-align: justify;}
+.infom2 h2{color: red;margin-left: 9px;}
+.contact1 h2{
+    float: left;
+}
+/* End About company */
+
+/* Start Footer */
+
+.footer{
+    background-color:#002A53;
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer ul li {display: inline-block}
+
+/* End Footer */
+
+/* Start our Framework */
+
+.if-header{width: 100%;height: 165px;border: 0px;padding: 0px;margin: 0px;margin-bottom: -3px;}
+
+.if-footer{width: 100%;height: 60px;border: 0px;padding: 0px;margin: 0px;margin-bottom: -3px;}
+
+p {line-height: 1.7;color: #666666}
+
+h2, h3 {color:#444}
+
+.fl-left {float: left}
+
+.fl-right {float: right}
+
+.container {width: 1170px;margin: auto}
+
+a {text-decoration: none}
+
+/* End our Framework */

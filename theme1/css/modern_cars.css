@@ -1,0 +1,255 @@
+html {
+    font-family: sans-serif;
+}
+html{zoom:67%}
+body{
+    margin: 0px
+}
+
+/* Start themes-bar */
+
+
+.themes-bar {
+    background-color: #312c2c;
+    color: #FFF;
+    overflow: hidden;
+    height: 35px;
+}
+.themes-bar ul {
+    list-style: none;
+    padding: 0px;
+    overflow: hidden;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 489px;
+}
+
+.themes-bar ul li {
+    padding-right: 8px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.themes-bar ul li .active{
+    color: black;
+}
+
+.themes-bar ul li a {
+     color: #FFF;
+    text-decoration: none;
+}
+
+.themes-bar ul li a:hover {
+    color:  black;   
+}
+
+/* End themes-bar */
+
+
+/* Start tit */
+.title{
+    text-align: center;
+        
+}
+
+/* End tit */
+
+/* Start Large img */
+.left{
+    float: left;
+    margin-top: 197px;
+    font-size: 30px;
+    border: 10px;
+    background-color:white;
+}
+.right{
+    float: right;
+    margin-top: 197px;
+    font-size: 30px;
+    border: 10px;
+    background-color:white;
+}
+.left1{
+    float: left;
+    margin-top: 197px;
+    font-size: 30px;
+    border: 10px;
+    background-color:white;
+}
+.right1{
+    float: right;
+    margin-top: 197px;
+    font-size: 30px;
+    border: 10px;
+    background-color:white;
+}
+.left2{
+    float: left;
+    margin-top: 197px;
+    font-size: 30px;
+    border: 10px;
+    background-color:white;
+}
+.right2{
+    float: right;
+    margin-top: 197px;
+    font-size: 30px;
+    border: 10px;
+    background-color:white;
+}
+.contact{
+    width: 1170px;
+    margin: auto;
+}
+.cars{
+    margin: auto;
+    width: 100%;
+}
+.infom{  
+   position: absolute;
+    height: 488px;
+    width: 1169px;
+    top: 309px;
+    background-color: #444;
+    padding: 162px 3px 10px 0px;
+    opacity: 0.9;
+    font-size: 23px;
+    margin-left: 1px;
+}
+.infom p{margin-right: 66px;margin-left:10px;font-size:20px;color: beige;text-align: center}
+.infom h2{color: red;margin-left: 9px;text-align: center;}
+.infom button{
+    margin: 347px 2px;
+    padding: 5px;
+    font-size: 29px;
+    background-color: #4f4e4e;
+    opacity: 0.9;
+    color: white;
+    border: 5px solid #4f4e4e;
+}
+.infom button:hover{
+    color: black;
+}
+.infom1 button:hover{
+    color: black;
+}
+.infom2 button:hover{
+    color: black;
+}
+.infom1 button{
+    margin: 382px 2px;
+    padding: 5px;
+    font-size: 29px;
+    background-color: #4f4e4e;
+    opacity: 0.9;
+    color: white;
+    border: 5px solid #4f4e4e;
+}
+.infom2 button{
+    margin: 370px 2px;
+    padding: 5px;
+    font-size: 29px;
+    background-color: #4f4e4e;
+    opacity: 0.9;
+    color: white;
+    border: 5px solid #4f4e4e;
+}
+.float-left{
+    border: 5px solid black;
+    float: left;
+    margin: 21px 144px;
+    width: 259px;
+    height: 473px;}
+
+.float-left p{
+    margin-left: 5px;
+}
+.float-left h3{
+    text-align: center
+    
+}
+.contact1{
+    width: 1170px;
+    margin: auto;
+}
+.menu{
+    border: 5px solid black;
+    float: left;
+    margin: 10px 11px 30px 142px;;
+    display: block;
+    background-color: royalblue;
+    margin: 10px -44px 30px 142px;
+}
+.menu a{
+    text-align: center
+}
+.infom1{  
+   position: absolute;
+    height: 523px;
+    width: 1169px;
+    top: 1748px;
+    background-color: #444;
+    padding: 126px 2px 10px 0px;
+    opacity: 0.9;
+    font-size: 23px;
+    margin: 12px 0px 5px 0px;
+    margin-left: -1px;
+}
+.infom1 p{margin-right: 66px;margin-left:10px;font-size:20px;color: beige;text-align: center;}
+.infom1 h2{color: red;margin-left: 9px;text-align: center}
+.infom2{  
+  position: absolute;
+    height: 514px;
+    width: 1169px;
+    top: 3195px;
+    background-color: #444;
+    padding: 179px 2px 10px 0px;
+    opacity: 0.9;
+    font-size: 23px;
+    margin: 12px 0px 5px 0px;
+    margin-left: -1px;
+}
+.infom2 p{margin-right: 66px;margin-left:10px;font-size:20px;color: beige;text-align: center}
+.infom2 h2{color: red;margin-left: 9px;text-align: center}
+.my slider{
+  display: none;
+}
+/* End About company */
+
+/* Start Footer */
+
+.footer{
+    background-color:#002A53;
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer ul li {display: inline-block}
+
+/* End Footer */
+
+/* Start our Framework */
+
+.if-header{width: 100%;height: 165px;border: 0px;padding: 0px;margin: 0px;margin-bottom: -3px;}
+
+.if-footer{width: 100%;height: 60px;border: 0px;padding: 0px;margin: 0px;margin-bottom: -3px;}
+
+p {line-height: 1.7;color: #666666}
+
+h2, h3 {color:#444}
+
+.fl-left {float: left}
+
+.fl-right {float: right}
+
+.container {width: 1170px;margin: auto}
+
+a {text-decoration: none}
+
+/* End our Framework */

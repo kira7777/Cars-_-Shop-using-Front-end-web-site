@@ -1,0 +1,73 @@
+html{zoom:67%}
+
+.login {
+    background-color: #ffffff;
+    padding: 60px;
+    height: auto;
+}
+form
+{
+    padding: 48px;
+    font-family: cursive;
+    border: 1px solid #9e9e9e;
+    margin: 97px 340px;
+    width: 40%;
+    border-radius: 139px;
+}
+h2 {
+    text-align: center;
+    background-color: #c70039;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+}
+input
+{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30px;
+    border: none;
+
+}
+input[type=text],input[type=email],input[type=mnumber],input[type=password]
+{   background-color: #eaeaea;
+    width: 90%;
+    color: black;
+    font-size: large;
+}
+input[type=submit]
+{
+    width: 95%;
+    background-color: #c70039;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+input[type=submit]:hover
+{
+    background-color: #012845
+}
+select
+{
+    padding: 10px;
+    width: 32%;
+    border-radius: 5px;
+}
+.signup_link
+{
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+}
+
+.signup_link a
+{
+    color: #0b69a9;
+    text-decoration: none;
+}
+
+.signup_link a:hover
+{
+    text-decoration: underline;
+}
